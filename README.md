@@ -1,7 +1,11 @@
-<h2 align="center">🗼 Tokyo Night SDDM 🗼</h2>
+### This is a forked and edited to my liking.. removing the win11 png and adding blur
+#### This will be the SDDM that I will be adding into my Hyprland Scripts 
+
+
+<h2 align="center">🗼 Tokyo House SDDM Theme 🗼</h2>
 
 <p align=center>
-A Tokyo Night theme for the <a href="https://github.com/sddm/sddm">SDDM Login Manager</a>
+A Tokyo Night theme variant for the <a href="https://github.com/sddm/sddm">SDDM Login Manager</a>
 </p>
 
 <h2 align=center>Preview</h2>
@@ -15,6 +19,8 @@ A Tokyo Night theme for the <a href="https://github.com/sddm/sddm">SDDM Login Ma
 </details>
 </center>
 
+Updated screenshots to follow
+
 ## Install
 ### From sources
 > _Assumes that you've installed and configured SDDM correctly_ (if not [read more](https://wiki.archlinux.org/title/SDDM))
@@ -25,42 +31,39 @@ A Tokyo Night theme for the <a href="https://github.com/sddm/sddm">SDDM Login Ma
 1. Open terminal, and clone the repository with:
 
    ```sh
-   git clone https://github.com/rototrash/tokyo-night-sddm.git ~/tokyo-night-sddm
+   git clone https://github.com/JaKooLit/tokyo-house.git ~/tokyo-night-sddm
    ```
 
 2. Them move it as follows:
 
    ```sh
-   sudo mv ~/tokyo-night-sddm /usr/share/sddm/themes/
+   sudo mv ~/tokyo-house /usr/share/sddm/themes/
    ```
-
-### Arch Linux
-This theme is available on the [AUR](https://aur.archlinux.org/packages/sddm-theme-tokyo-night), you can install it with `makepkg` or using an AUR helper.
-
-```sh
-git clone https://aur.archlinux.org/sddm-theme-tokyo-night.git
-cd sddm-theme-tokyo-night
-makepkg -Ccsi
-```
 
 ## Configure
 
-Edit the `/etc/sddm.conf` (with any text editor with **raised** privileges), so that it looks like this:
+Edit the `/etc/sddm.conf.d/10-theme.conf` (with any text editor with **raised** privileges), so that it looks like this:
 
 ```sh
-sudo nano /etc/sddm.conf  # use any text editor with raised privileges
+sudo nano /etc/sddm.conf.d/10-theme.conf  # use any text editor with raised privileges
 ---
+
 [Theme]
-Current=tokyo-night-sddm
+Current=tokyo-house
    ```
 
 ### Language and time format
-
+- This is
 - You can also change the time format.
-- To change the default wallpaper put desired image in the `tokyo-night-sddm/Backgrounds/` folder and add the name of the image followed by its extension (`.jpg` or `.png`) in `theme.conf` file.
+- To change the default wallpaper put desired image in the `tokyo-house/Backgrounds/` folder and add the name of the image followed by its extension (`.jpg` or `.png`) in `theme.conf` file.
 - You can also customize it further if you wish in the `theme.conf`
 (blur, form position, etc).
+
+
+
+
 ## Credits
+- Full credit goes to original autor [`LINK`](https://github.com/rototrash/tokyo-night-sddm)
 
 - Based on the theme [`Sugar Dark for SDDM`](https://github.com/MarianArlt/sddm-sugar-dark) by [**MarianArlt**](https://github.com/MarianArlt).
 - AUR Package by [**julian-poidevin**](https://github.com/julian-poidevin)
