@@ -30,13 +30,13 @@ Updated screenshots to follow
 
 1. Open terminal, and clone the repository with:
 
-   ```sh
-   git clone https://github.com/JaKooLit/tokyo-house.git ~/tokyo-night-sddm
+   ```bash
+   git clone https://github.com/JaKooLit/tokyo-house.git ~/tokyo-house
    ```
 
-2. Them move it as follows:
+2. Then move it as follows:
 
-   ```sh
+   ```bash
    sudo mv ~/tokyo-house /usr/share/sddm/themes/
    ```
 
@@ -44,7 +44,7 @@ Updated screenshots to follow
 
 Edit the `/etc/sddm.conf.d/10-theme.conf` (with any text editor with **raised** privileges), so that it looks like this:
 
-```sh
+```bash
 sudo nano /etc/sddm.conf.d/10-theme.conf  # use any text editor with raised privileges
 ---
 
@@ -53,8 +53,11 @@ Current=tokyo-house
    ```
 
 ### Language and time format
-- This is
-- You can also change the time format.
+- By default, it is configured with 24H format. You can change to AM/PM variant by editing the theme.conf
+```bash
+sudo nano /usr/share/sddm/themes/tokyo-house/theme.conf  # use any text editor with raised privileges
+```
+- `HourFormat="hh:mm AP` . Make sure to disable the above of this part
 - To change the default wallpaper put desired image in the `tokyo-house/Backgrounds/` folder and add the name of the image followed by its extension (`.jpg` or `.png`) in `theme.conf` file.
 - You can also customize it further if you wish in the `theme.conf`
 (blur, form position, etc).
