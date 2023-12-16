@@ -1,7 +1,7 @@
 <h2 align="center">🗼 Simple SDDM Theme 🗼</h2>
 
-<h2 align="center"> This will be the SDDM theme to be installed in my Hyprland Scripts</h2>
-<h2 align="center"> Not my own work. See below `Credits` for link of original author </h2>
+<h1 align="center"> This will be the SDDM theme to be installed in my Hyprland Scripts</h1>
+<h1 align="center"> Not my own work. See below `Credits` for link of original author </h1>
 
 
 <p align=center>
@@ -10,10 +10,10 @@ A Simple theme variant for the <a href="https://github.com/sddm/sddm">SDDM Login
 
 <h2 align=center>Preview</h2>
 <center>
-<img src="./Previews/1.png" alt="preview-1">
+<img src="./Previews/2.png" alt="preview-1">
 <details>
 <summary align=center>More Previews</summary>
-<img src="./Previews/2.png" alt="preview-2">
+<img src="./Previews/1.png" alt="preview-2">
 <img src="./Previews/3.png" alt="preview-4">
 <img src="./Previews/4.png" alt="preview-3">
 <img src="./Previews/5.png" alt="preview-5">
@@ -65,8 +65,8 @@ sudo nano /usr/share/sddm/themes/simple-sddm/theme.conf  # use any text editor w
 
 
 ## Credits
-- Full credit goes to original autor [`LINK`](https://github.com/rototrash/tokyo-night-sddm)
+- Full credit goes to original autor [`LINK`](https://github.com/rototrash/tokyo-night-sddm) by [**rototrash**](https://github.com/rototrash)
 
 - Based on the theme [`Sugar Dark for SDDM`](https://github.com/MarianArlt/sddm-sugar-dark) by [**MarianArlt**](https://github.com/MarianArlt).
-- AUR Package by [**julian-poidevin**](https://github.com/julian-poidevin)
+
 
