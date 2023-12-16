@@ -1,11 +1,11 @@
-### This is a forked and edited to my liking.. removing the win11 png and adding blur
-#### This will be the SDDM that I will be adding into my Hyprland Scripts 
+<h2 align="center">🗼 Simple SDDM Theme 🗼</h2>
 
+<h2 align="center"> This will be the SDDM theme to be installed in my Hyprland Scripts</h2>
+<h2 align="center"> Not my own work. See below `Credits` for link of original author </h2>
 
-<h2 align="center">🗼 Tokyo House SDDM Theme 🗼</h2>
 
 <p align=center>
-A Tokyo Night theme variant for the <a href="https://github.com/sddm/sddm">SDDM Login Manager</a>
+A Simple theme variant for the <a href="https://github.com/sddm/sddm">SDDM Login Manager</a>
 </p>
 
 <h2 align=center>Preview</h2>
@@ -16,10 +16,9 @@ A Tokyo Night theme variant for the <a href="https://github.com/sddm/sddm">SDDM 
 <img src="./Previews/2.png" alt="preview-2">
 <img src="./Previews/3.png" alt="preview-4">
 <img src="./Previews/4.png" alt="preview-3">
+<img src="./Previews/5.png" alt="preview-5">
 </details>
 </center>
-
-Updated screenshots to follow
 
 ## Install
 ### From sources
@@ -31,13 +30,13 @@ Updated screenshots to follow
 1. Open terminal, and clone the repository with:
 
    ```bash
-   git clone https://github.com/JaKooLit/tokyo-house.git ~/tokyo-house
+   git clone https://github.com/JaKooLit/simple-sddm.git ~/simple-sddm
    ```
 
 2. Then move it as follows:
 
    ```bash
-   sudo mv ~/tokyo-house /usr/share/sddm/themes/
+   sudo mv ~/simple-sddm /usr/share/sddm/themes/
    ```
 
 ## Configure
@@ -49,16 +48,16 @@ sudo nano /etc/sddm.conf.d/10-theme.conf  # use any text editor with raised priv
 ---
 
 [Theme]
-Current=tokyo-house
+Current=simple-sddm
    ```
 
 ### Language and time format
 - By default, it is configured with 24H format. You can change to AM/PM variant by editing the theme.conf
 ```bash
-sudo nano /usr/share/sddm/themes/tokyo-house/theme.conf  # use any text editor with raised privileges
+sudo nano /usr/share/sddm/themes/simple-sddm/theme.conf  # use any text editor with raised privileges
 ```
 - `HourFormat="hh:mm AP` . Make sure to disable the above of this part
-- To change the default wallpaper put desired image in the `tokyo-house/Backgrounds/` folder and add the name of the image followed by its extension (`.jpg` or `.png`) in `theme.conf` file.
+- To change the default wallpaper put desired image in the `simple-sddm/Backgrounds/` folder and add the name of the image followed by its extension (`.jpg` or `.png`) in `theme.conf` file.
 - You can also customize it further if you wish in the `theme.conf`
 (blur, form position, etc).
 
@@ -71,6 +70,3 @@ sudo nano /usr/share/sddm/themes/tokyo-house/theme.conf  # use any text editor w
 - Based on the theme [`Sugar Dark for SDDM`](https://github.com/MarianArlt/sddm-sugar-dark) by [**MarianArlt**](https://github.com/MarianArlt).
 - AUR Package by [**julian-poidevin**](https://github.com/julian-poidevin)
 
-## License
-
-[GNU Lesser General Public License v3.0](LICENSE)
