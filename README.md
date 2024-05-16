@@ -1,8 +1,8 @@
-<h2 align="center">🗼 Simple SDDM Theme 🗼</h2>
+<h2 align="center">🗼 Simple SDDM Theme - QT5 🗼</h2>
 
-<h1 align="center"> This will be the SDDM theme to be installed in my Hyprland Scripts</h1>
-<h1 align="center"> Not my own work. See below `Credits` for link of original author </h1>
+<h1 align="center"> This will be the SDDM theme to be installed on some of my Hyprland Distro Install Scripts</h1>
 
+for a QT6, please see [`HERE](https://github.com/JaKooLit/simple-sddm-2)
 
 <p align=center>
 A Simple theme variant for the <a href="https://github.com/sddm/sddm">SDDM Login Manager</a>
@@ -65,8 +65,6 @@ sudo nano /usr/share/sddm/themes/simple-sddm/theme.conf  # use any text editor w
 
 
 ## Credits
-- Full credit goes to original autor [`LINK`](https://github.com/rototrash/tokyo-night-sddm) by [**rototrash**](https://github.com/rototrash)
-
-- Based on the theme [`Sugar Dark for SDDM`](https://github.com/MarianArlt/sddm-sugar-dark) by [**MarianArlt**](https://github.com/MarianArlt).
+- Modified Theme which is based to this [`LINK`](https://github.com/rototrash/tokyo-night-sddm) by [**rototrash**](https://github.com/rototrash)
 
 
