@@ -41,10 +41,10 @@ A Simple theme variant for the <a href="https://github.com/sddm/sddm">SDDM Login
 
 ## Configure
 
-Edit the `/etc/sddm.conf.d/10-theme.conf` (with any text editor with **raised** privileges), so that it looks like this:
+Edit the '/etc/sddm.conf.d/theme.conf.user' (with any text editor with **raised** privileges), so that it looks like this:
 
 ```bash
-sudo nano /etc/sddm.conf.d/10-theme.conf  # use any text editor with raised privileges
+sudo nano /etc/sddm.conf.d/theme.conf.user # use any text editor with raised privileges
 ---
 
 [Theme]
