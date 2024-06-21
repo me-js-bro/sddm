@@ -18,6 +18,14 @@ A Simple theme variant for the <a href="https://github.com/sddm/sddm">SDDM Login
 <img src="./Previews/4.png" alt="preview-3">
 <img src="./Previews/5.png" alt="preview-5">
 </details>
+
+<details>
+<summary align=center>More Previews <br> for Arch, Fedora and OpenSuse</summary>
+<img src="./Previews/arch-sddm.png" alt="arch-sddm">
+<img src="./Previews/fedora-sddm.png" alt="fedora-sddm">
+<img src="./Previews/fedora-sddm-2.png" alt="fedora-sddm-2">
+<img src="./Previews/opensuse-sddm.png" alt="opensuse-sddm">
+</details>
 </center>
 
 ## Install
