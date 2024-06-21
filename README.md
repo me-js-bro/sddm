@@ -48,20 +48,31 @@ sudo nano /etc/sddm.conf.d/theme.conf.user # use any text editor with raised pri
 ---
 
 [Theme]
-Current=simple-sddm
+Current=sddm
    ```
 
 ### Language and time format
 - By default, it is configured with 24H format. You can change to AM/PM variant by editing the theme.conf
 ```bash
-sudo nano /usr/share/sddm/themes/simple-sddm/theme.conf  # use any text editor with raised privileges
+sudo nano /usr/share/sddm/themes/sddm/theme.conf  # use any text editor with raised privileges
 ```
 - `HourFormat="hh:mm AP` . Make sure to disable the above of this part
-- To change the default wallpaper put desired image in the `simple-sddm/Backgrounds/` folder and add the name of the image followed by its extension (`.jpg` or `.png`) in `theme.conf` file.
+- To change the default wallpaper put desired image in the `sddm/Backgrounds/` folder and add the name of the image followed by its extension (`.jpg` or `.png`) in `theme.conf` file.
 - You can also customize it further if you wish in the `theme.conf`
 (blur, form position, etc).
 
 
+### Some extra themes
+I have added 3 more themes for Arch, Fedora and OpenSuse-Tumbleweed so that anyone can use those for their distros. <br>
+- Just copy one or those themes to your '/usr/share/sddm/themes' directory. For example:
+```bash
+sudo cp -r sddm/arch-sddm /usr/share/sddm/themes
+```
+- And now edit the '`/etc/sddm.conf.d/theme.conf.user`' file and change to:
+```bash
+[Theme]
+Current=arch-sddm
+```
 
 
 ## Credits
